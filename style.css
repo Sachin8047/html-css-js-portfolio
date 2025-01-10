@@ -388,4 +388,5 @@ footer p {
 .profile-pic {
   height: 400px;
   width: 400px;
+  border: 2rem;
 }
