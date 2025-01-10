@@ -284,7 +284,7 @@ section {
   height: 80%;
 }
 .section_pic-container {
-  height: 500px;
+  height: 400px;
   width: 400px;
   margin: auto 0;
 }
@@ -386,7 +386,6 @@ footer p {
   text-align: center;
 }
 .profile-pic {
-  height: 40vh;
-  width: 50vh;
-  border-radius: 2rem;
+  height: 400px;
+  width: 400px;
 }
