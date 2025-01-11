@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400px) {
   #Profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   #desk-nav {
     display: none;
   }
@@ -39,11 +39,19 @@
     margin: 0 auto 2rem;
   }
   .about-containers {
-    margin-top: 0;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #profile {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: 40vh;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #contact,
   footer {
     height: 40vh;
@@ -95,5 +103,8 @@
   }
   .text-container {
     text-align: justifys;
+  }
+  .about-containers {
+    margin-top: 2rem;
   }
 }

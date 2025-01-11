@@ -8,3 +8,9 @@ function togglemenu() {
 function myexperience() {
   location.href = "#experience";
 }
+function myproject() {
+  location.href = "#Project";
+}
+function mycontact() {
+  location.href = "#contact";
+}
