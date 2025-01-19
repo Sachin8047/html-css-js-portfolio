@@ -396,3 +396,56 @@ footer p {
   width: 70vh;
   transition-duration: 2000ms;
 }
+.section_pic-container:hover {
+}
+
+/* flip image*/
+.flip-box {
+  background-color: transparent;
+  height: 400px;
+  width: 400px;
+  margin: 0;
+  border: 1px solid #f1f1f1;
+  border-radius: 2rem;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  height: 400px;
+  width: 400px;
+
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 2rem;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 2rem;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: rgba(93, 95, 96, 0.324);
+  color: white;
+  transform: rotateY(180deg);
+}
