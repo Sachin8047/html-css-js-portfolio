@@ -391,6 +391,8 @@ footer p {
   border-radius: 2rem;
 }
 .Certificate:hover {
-  box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
-  height: 50vh;
+  box-shadow: rgba(103, 110, 117, 0.8) 0 0 100px 33px;
+  height: 60vh;
+  width: 70vh;
+  transition-duration: 2000ms;
 }
