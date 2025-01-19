@@ -390,3 +390,7 @@ footer p {
   width: 400px;
   border-radius: 2rem;
 }
+.Certificate:hover {
+  box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+  height: 50vh;
+}
