@@ -351,6 +351,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: -15rem;
 }
 .contact-info-upper-container {
   display: flex;
@@ -391,12 +392,13 @@ footer p {
   height: 400px;
   width: 400px;
   border-radius: 2rem;
+  margin-left: -9rem;
 }
 .Certificate:hover {
   box-shadow: rgba(103, 110, 117, 0.8) 0 0 100px 33px;
-  height: 60vh;
-  width: 70vh;
-  transition-duration: 2000ms;
+  height: 40vh;
+  width: 60wh;
+  transition-duration: 200ms;
 }
 .section_pic-container:hover {
 }
