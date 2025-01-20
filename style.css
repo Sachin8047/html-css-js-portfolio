@@ -178,6 +178,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  padding-bottom: 5rem;
 }
 #social-container {
   display: flex;
@@ -292,6 +293,7 @@ section {
 
 #experience {
   position: relative;
+  padding-top: 5rem;
 }
 .experience-sub-title {
   color: rgb(85, 85, 85);
