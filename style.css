@@ -3,7 +3,9 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
+
 
 body {
   font-family: "Poppins", serif;
@@ -452,4 +454,61 @@ footer p {
   background-color: rgba(93, 95, 96, 0.324);
   color: white;
   transform: rotateY(180deg);
+}
+.project-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.project-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #1e90ff;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #1e90ff;
+  padding: 8px 15px;
+  border-radius: 6px;
+}
+
+.project-card a:hover {
+  background-color: #005bb5;
 }
